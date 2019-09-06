@@ -2,52 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+
+    <link rel='stylesheet' href="myStyleSheet.css">
     
-    .flex-container {
-       width: 700px;
-       display: flex;
-       margin-bottom: 2px;
-       flex-wrap: wrap;
-       background-color: whitesmoke;
-       border: 0px solid white;
-       align-items: center;
-       
-       
-     }
-    .flex-container div {
-      flex-grow: 0.2;
-      padding: 30px 5px;
-      margin-right: 20px;  
-      margin-bottom: 20px;
-      text-align: center;
-      border: 2px solid white;
-      width: 150px;
-      height: 250px;
-      box-shadow: 5px 2px #888888;
-
-     }
-    .flex-container div.two {
-       flex-grow: 5;
-     }
-
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 70%;
-      }
-
-    td, th {
-        border: 1px solid #dddddd;
-        text-align: left;
-        padding: 8px;
-      }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-        
-}
-</style>
 </head>
 <body>
     
